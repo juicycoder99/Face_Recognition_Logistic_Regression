@@ -1,16 +1,11 @@
-# Programming Languages for Data Analysis (CS504) — Final Exam
-
-Final exam for **Programming Languages for Data Analysis (CS504)**, Department of Computer Science,
-Bishop's University.
-
-## Face recognition with Logistic Regression (scikit-learn and PyTorch)
+# Face Recognition with Logistic Regression
 
 Recognising faces in the Olivetti faces dataset (40 people, 10 images each, 64×64 grayscale) using
 Logistic Regression, first with scikit-learn and then as a neural network in PyTorch, with analyses
 of network depth, optimizer choice, and PCA dimensionality reduction.
 
-The solution is in [`Final_exam.ipynb`](Final_exam.ipynb). The dataset is downloaded automatically
-by `sklearn.datasets.fetch_olivetti_faces`.
+The implementation is in [`face_recognition.ipynb`](face_recognition.ipynb). The dataset is
+downloaded automatically by `sklearn.datasets.fetch_olivetti_faces`.
 
 ## What the notebook does
 
@@ -38,12 +33,12 @@ by `sklearn.datasets.fetch_olivetti_faces`.
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn torch
-jupyter notebook Final_exam.ipynb
+jupyter notebook face_recognition.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Final_exam.ipynb` | Full solution |
-| `FE.pdf` | Exam description |
+| `face_recognition.ipynb` | Full implementation and analysis |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
